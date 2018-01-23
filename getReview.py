@@ -1,6 +1,7 @@
 import urllib.request
 from bs4 import BeautifulSoup as soup
 import urllib.parse as uparse
+import re
 
 class AppURLOpener(urllib.request.FancyURLopener):
 	version = "Mozilla/5.0"
