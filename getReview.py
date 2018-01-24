@@ -1,3 +1,6 @@
+#!usr/bin/python3
+#Author: SanipRijal
+
 import urllib.request
 from bs4 import BeautifulSoup as soup
 import urllib.parse as uparse
